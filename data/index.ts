@@ -194,42 +194,58 @@ export const DATA = {
       {
         id: 1,
         title: "AI Automation Pipelines",
-        description:
-          "End-to-end automation systems using AI APIs.",
+        description: "End-to-end automation systems using AI APIs.",
         category: "AI Systems",
-        details:
-          "Designed and implemented automation pipelines for content generation, data processing, lead handling, and operational efficiency using AI models and workflow orchestration.",
+        details: "Designed and implemented automation pipelines for content generation, data processing, lead handling, and operational efficiency using AI models and workflow orchestration.",
         github: "https://github.com",
+        image: "/projects/ai-automation.jpg",
+        gallery: ["/projects/ai-automation-1.jpg", "/projects/ai-automation-2.jpg"],
+        tech: [
+          { name: "Next.js", icon: "mdi:react" },
+          { name: "OpenAI", icon: "mdi:robot" },
+        ],
       },
       {
         id: 2,
         title: "E-commerce Startups",
-        description:
-          "Product, growth, and operations ownership.",
+        description: "Product, growth, and operations ownership.",
         category: "Entrepreneurship",
-        details:
-          "Built and scaled e-commerce ventures handling product sourcing, branding, marketing funnels, and technical infrastructure.",
+        details: "Built and scaled e-commerce ventures handling product sourcing, branding, marketing funnels, and technical infrastructure.",
         github: "https://github.com",
+        image: "/projects/ecommerce.jpg",
+        gallery: ["/projects/ecommerce-1.jpg", "/projects/ecommerce-2.jpg"],
+        tech: [
+          { name: "Shopify", icon: "mdi:shopify" },
+          { name: "React", icon: "mdi:react" },
+        ],
       },
       {
         id: 3,
         title: "SaaS & Product Platforms",
-        description:
-          "Software products with subscription and automation layers.",
+        description: "Software products with subscription and automation layers.",
         category: "SaaS",
-        details:
-          "Developed SaaS platforms combining full-stack engineering, UX design, billing systems, and growth mechanics.",
+        details: "Developed SaaS platforms combining full-stack engineering, UX design, billing systems, and growth mechanics.",
         github: "https://github.com",
+        image: "/projects/saas-platform.jpg",
+        gallery: ["/projects/saas-platform-1.jpg", "/projects/saas-platform-2.jpg"],
+        tech: [
+          { name: "TypeScript", icon: "mdi:language-typescript" },
+          { name: "Stripe", icon: "mdi:credit-card" },
+        ],
       },
       {
         id: 4,
         title: "Digital Marketing Agency Systems",
-        description:
-          "SEO, content, and automation-driven growth engines.",
+        description: "SEO, content, and automation-driven growth engines.",
         category: "Digital Marketing",
-        details:
-          "Created repeatable marketing systems integrating SEO, analytics, content, and automation for multiple clients and brands.",
+        details: "Created repeatable marketing systems integrating SEO, analytics, content, and automation for multiple clients and brands.",
         github: "https://github.com",
+        image: "/projects/marketing-agency.jpg",
+        gallery: ["/projects/marketing-agency-1.jpg", "/projects/marketing-agency-2.jpg"],
+        tech: [
+          { name: "Google Analytics", icon: "mdi:google-analytics" },
+          { name: "SEO", icon: "mdi:magnify" },
+        ],
       },
     ],
   },
